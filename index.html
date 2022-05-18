@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> 
+    <script src="./js/jquery-1.12.4.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/fullpage.js@2.9.4/dist/jquery.fullpage.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/fullpage.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./js/script.js"></script>
+    <title>Burberry</title>
+</head>
+<body>
+    <!-- <iframe src="https://www.youtube.com/embed/jqW2A3JhOAk?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+    <!-- 풀페이지 작업시 전체 묶어주는 박스 태그 id로 설정 -->
+    <div id="wrap">
+
+        <!-- banner 영역 -->
+        <section class="banner section">
+            <!-- 풀페이지가 되어야하는 페이지에 class명 section으로 묶어줘야함 -->
+            <div class="container">
+                <!-- header 영역 -->
+                <header class="header-area">
+                    <div class="header-logo">
+                        <a href="#none" class="logo">
+                            <img src="./img/Burberry-Logo-PNG1.png" alt="">
+                        </a>
+                    </div>
+
+                    <!-- menu 영역 -->
+                    <nav>
+                        <ul class="menu">
+                            <li data-alt="tab1">
+                                <a href="#none">신상품</a>
+                            </li>
+                            <li data-alt="tab2">
+                                <a href="#none">여성</a>
+                            </li>
+                            <li data-alt="tab3">
+                                <a href="#none">남성</a>
+                            </li>
+                            <li data-alt="tab4">
+                                <a href="#none">아동</a>
+                            </li>
+                            <li data-alt="tab5">
+                                <a href="#none">아우터웨어</a>
+                            </li>
+                            <li data-alt="tab6">
+                                <a href="#none">가방</a>
+                            </li>
+                            <li data-alt="tab7">
+                                <a href="#none">선물</a>
+                            </li>
+                            <li data-alt="tab8">
+                                <a href="#none">버버리 스토리</a>
+                            </li>
+                            <li>
+                                <a href="#none">beyond</a>
+                            </li>
+                        </ul>
+                        <!-- icon-box 영역 -->
+                        <ul class="icon-box">
+                            <li>
+                                <a href="#none">
+                                    <img src="./img/search.svg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#none">
+                                    <img src="./img/cart.svg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#none">
+                                    <img src="./img/user.svg" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <!-- pc사이즈에서는 보이지 않는 햄버거버튼 -->
+                    <a href="#none" id="hamburger">
+                        <span></span>
+                        <span></span>
+                    </a>
+                </header>
+
+
+                <!-- sub-menu-box 영역 -->
+                <div class="sub-menu-box">
+                    <ul id="tab1" class="sub-menu">
+                        <li>버버리 아이콘</li>
+                        <li>버버리 홀마크</li>
+                        <li>퓨쳐 헤리티지</li>
+                        <li>2022 봄/여름 컬렉션</li>
+                    </ul>
+                    <ul id="tab2" class="sub-menu">
+                        <li>아우터웨어</li>
+                        <li>니트웨어</li>
+                        <li>가방</li>
+                        <li>슈즈</li>
+                        <li>쥬얼리</li>
+                    </ul>
+                    <ul id="tab3" class="sub-menu">
+                        <li>아우터웨어</li>
+                        <li>니트웨어</li>
+                        <li>가방</li>
+                        <li>슈즈</li>
+                        <li>벨트</li>
+                    </ul>
+                    <ul id="tab4" class="sub-menu">
+                        <li>유아 전체</li>
+                        <li>여아 전체</li>
+                        <li>남아 전체</li>
+                        <li>아기 기저귀 가방</li>
+                    </ul>
+                    <ul id="tab5" class="sub-menu">
+                        <li>전체 아우터웨어</li>
+                        <li>다운</li>
+                        <li>트렌치코트</li>
+                        <li>퀼팅 재킷</li>
+                        <li>케이프</li>
+                    </ul>
+                    <ul id="tab6" class="sub-menu">
+                        <li>시그니처 백</li>
+                        <li>올림피아 백</li>
+                        <li>롤라 백</li>
+                        <li>타이틀 백</li>
+                        <li>TB 백</li>
+                    </ul>
+                    <ul id="tab7" class="sub-menu">
+                        <li>여성 선물</li>
+                        <li>남성 선물</li>
+                        <li>추석 선물 컬렉션</li>
+                    </ul>
+                    <ul id="tab8" class="sub-menu">
+                        <li>버버리 가치</li>
+                        <li>버버리 쇼</li>
+                        <li>버버리 컬렉션</li>
+                        <li>콜라보레이션</li>
+                    </ul>
+                </div>
+
+                <!-- 슬라이더 :  스와이퍼로 변경 예정 -->
+                <div class="mask swiper mySwiper">
+                    <div class="slider swiper-wrapper">
+                        <!-- <div class="swiper-slide">
+                            <video src="./img/Introducing The TB bag Collection _ Burberry_1080p.mp4" autoplay loop muted playsinline></video>
+                            github 내에서 출력가능한 트래픽은 20mb 제한 -> 영상같은 대용량 사이즈를 올리고 싶을땐 편집툴로 잘라서 사용할 것
+                        </div> -->
+                      <div class="in-slider fi swiper-slide"></div>
+                      <div class="in-slider se swiper-slide"></div>
+                      <div class="in-slider th swiper-slide"></div>
+                      <div class="in-slider fo swiper-slide"></div>
+                      <div class="in-slider fif swiper-slide"></div>
+                    </div>
+
+                    <!-- 슬라이드 컨텐트 영역 -->
+                    <div class="slider-content-box">
+                        <ul class="arrow-btn">
+                            <li class="slide-prev swiper-button-prev"></li>
+                            <li class="slide-next swiper-button-next"></li>
+                        </ul>
+                        <ul class="slide-content">
+                            <li class="content-inner">
+                                <h2>버버리</h2>
+                                <span>여성</span>
+                                <span>남성</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>              
+            </div>
+        </section>
+
+
+        <!-- sec-1 영역 -->
+        <section class="sec-1 section">
+            <div class="container">
+                <div class="sticky-wrapper">
+                    <span>새로운 감각으로 재탄생한 뉴트럴 컬러</span>
+                    <a href="#none">룩 구매하기</a>
+                </div>
+
+                <div class="mask">
+                    <div class="auto-slider-wrap">
+                        <div class="auto-slider">
+                            <div class="in-auto-slider">
+                                <a href="#none">
+                                    <img src="./img/2-1.jpeg" alt="">
+                                </a>
+                            </div>
+                            <div class="in-auto-slider">
+                                <a href="#none">
+                                    <img src="./img/2-2.jpeg" alt="">
+                                </a>
+                            </div>
+                            <div class="in-auto-slider">
+                                <a href="#none">
+                                    <img src="./img/2-3.jpeg" alt="">
+                                </a>
+                            </div>
+                            <div class="in-auto-slider">
+                                <a href="#none">
+                                    <img src="./img/2-4.jpeg" alt="">
+                                </a>
+                            </div>
+                            <div class="in-auto-slider">
+                                <a href="#none">
+                                    <img src="./img/2-5.jpeg" alt="">
+                                </a>
+                            </div>
+                            <div class="in-auto-slider">
+                                <a href="#none">
+                                    <img src="./img/2-6.jpeg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="auto-slider box2">
+                            <div class="in-auto-slider">
+                                <a href="#none">
+                                    <img src="./img/2-1.jpeg" alt="">
+                                </a>
+                            </div>
+                            <div class="in-auto-slider">
+                                <a href="#none">
+                                    <img src="./img/2-2.jpeg" alt="">
+                                </a>
+                            </div>
+                            <div class="in-auto-slider">
+                                <a href="#none">
+                                    <img src="./img/2-3.jpeg" alt="">
+                                </a>
+                            </div>
+                            <div class="in-auto-slider">
+                                <a href="#none">
+                                    <img src="./img/2-4.jpeg" alt="">
+                                </a>
+                            </div>
+                            <div class="in-auto-slider">
+                                <a href="#none">
+                                    <img src="./img/2-5.jpeg" alt="">
+                                </a>
+                            </div>
+                            <div class="in-auto-slider">
+                                <a href="#none">
+                                    <img src="./img/2-6.jpeg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- sec-2 영역 -->
+        <section class="sec-2 section">
+            <div class="container">
+                <div class="product-left">
+                    <div class="product-fitting" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="500">
+                        <!--ㄴ 시간차/위치값 -->
+                        <img src="./img/section2-1.png" alt="">
+                    </div>
+                </div>
+                <div class="product-right" data-aos="fade-left" data-aos-duration="1500" data-aos-offset="500">
+                    <img src="./img/section2-2.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!-- sec-3 영역 -->
+        <section class="sec-3 section">
+            <div class="container">
+                <ul class="slogan-box">
+                    <li class="animation-txt box1">
+                        <img src="./img/txt-box1.png" alt="">
+                    </li>
+                    <li class="animation-txt box2">
+                        <img src="./img/txt-box2.png" alt="">
+                    </li>
+                </ul>
+                <div class="sec-3-img-box"></div>
+            </div>
+        </section>
+
+        <!-- sec-4 영역 -->
+        <section class="sec-4 section">
+            <div class="container">
+                <ul class="fade-gallery">
+                    <li class="inner-gallery" data-image="./img/4-1.jpeg">
+                        <a href="#none">여성</a>
+                    </li>
+                    <li class="inner-gallery" data-image="./img/4-2.jpg">
+                        <a href="#none">남성</a>
+                    </li>
+                    <li class="inner-gallery" data-image="./img/4-3.jpeg">
+                        <a href="#none">가방</a>
+                    </li>
+                    <li class="inner-gallery" data-image="./img/4-4.jpeg">
+                        <a href="#none">트렌치코트</a>
+                    </li>
+                </ul>
+
+                <div class="fade-gallery-photo"></div>
+            </div>
+        </section>
+
+
+        <!-- footer 영역 -->
+        <section class="footer section">
+            <div class="container">
+                <div class="footer-design">
+                    <img src="./img/footer-img.jpg" alt="">
+                </div>
+
+                <div class="footer-t">
+                    <div class="box inner-txt1">
+                        <h1>이메일 등록</h1>
+                        <p>이메일을 등록해 최신 버버리 컬렉션, 그리고 다양한 영상에 대한 업데이트를
+                            받아보세요.</p>
+                        <form>
+                            <input type="search" placeholder="이메일*">
+                        </form>
+                    </div>
+                    <div class="box inner-txt2">
+                        <p><a href="#none">매장찾기</a></p>
+                        <p><a href="#none">버버리 앱 다운로드</a></p>
+                    </div>
+                    <div class="box inner-txt3">
+                        <h1><a href="#none">고객서비스</a></h1>
+                        <h1><a href="#none">법적고지 · 쿠키</a></h1>
+                        <p><a href="#none">공급망 투명성 및 현대판 노예방지 선언</a></p>
+                        <h1><a href="#none">버버리 팔로우</a></h1>
+                        <h1><a href="#none">회사 소개</a></h1>
+                    </div>
+                    <div class="box inner-txt4">
+                        <h1><a href="#none">언어</a></h1>
+                        <p><a href="#none">한국어</a></p>
+                        <h1><a href="#none">배송지</a></h1>
+                        <p><a href="#none">대한민국(₩)</a></p>
+                    </div>
+                </div>
+
+                <div class="footer-b">
+                    <p class="txt-bottom">스크린 리더를 사용해 본 사이트 이용 시 문제가 발생하는 경우, 0079844341257 또는 문의하기로 문의하십시오.</p>
+                    <p class="txt-bottom">버버리 리미티드 한국지점은 본 웹사이트와 관련하여 공정거래위원회에 통신판매업신고(신고번호: 2017-경기이천-0040)를 필하였습니다.  해당 지점에 대한 자세한 정보는 다음과 같습니다. 주소: 경기도 이천시 마장면 프리미엄아울렛로 33-48  이메일: asia.customerservice@burberry.com  전화번호: 007 984 434 1257  사업자등록번호: 211-84-10995  대표자: 호세 안토니오 발레로 아미고</p>
+                    <p class="txt-bottom">상품정보에 제공된 내용 외에 저희 제품에 관하여 더 궁금한 사항이 있으시면 고객서비스로 연락해 주시기 바랍니다. 대한민국으로 배송되는 제품은 2016년 1월 이후 생산된 제품입니다.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

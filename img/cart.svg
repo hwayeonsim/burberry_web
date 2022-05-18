@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="cart" transform="translate(-1800 -32)">
+    <rect id="사각형_4" data-name="사각형 4" width="24" height="24" transform="translate(1800 32)" fill="none"/>
+    <g id="shopping-cart_path" transform="translate(1792 22)">
+      <path id="패스_11" data-name="패스 11" d="M21.383,30.532H34.32L36.7,21H19" transform="translate(-6.596 -5.276)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="패스_12" data-name="패스 12" d="M15.792,29.274,11.724,13H9" transform="translate(0 0)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="패스_13" data-name="패스 13" d="M24.688,61.04a1.769,1.769,0,1,1-.884,1.532A1.769,1.769,0,0,1,24.688,61.04Z" transform="translate(-9.764 -31.529)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="패스_14" data-name="패스 14" d="M30.419,61H40.687" transform="translate(-14.127 -31.659)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="패스_15" data-name="패스 15" d="M57.688,61.04a1.769,1.769,0,1,1-.884,1.532A1.769,1.769,0,0,1,57.688,61.04Z" transform="translate(-31.53 -31.529)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>
